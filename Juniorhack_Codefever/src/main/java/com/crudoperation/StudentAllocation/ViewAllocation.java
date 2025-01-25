@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
-
+//fss
 public class ViewAllocation implements StudentAllocationOperation{
     @Override
     public void Operation(Connection Conn) {
