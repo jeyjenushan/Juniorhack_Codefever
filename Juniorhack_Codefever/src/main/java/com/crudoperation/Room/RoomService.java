@@ -1,10 +1,13 @@
 package com.crudoperation.Room;
 
+import jdk.dynalink.Operation;
+
+import java.sql.Connection;
 import java.util.Scanner;
 
 public class RoomService implements RoomOperation{
     @Override
-    public void operation() {
+    public void operation(Connection conn) {
          System.out.println("Roomoperation");
         System.out.println("(1).Add Rooms");
         System.out.println("(2).View Rooms");

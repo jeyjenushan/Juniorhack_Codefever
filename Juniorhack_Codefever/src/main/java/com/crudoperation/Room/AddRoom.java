@@ -1,10 +1,11 @@
 package com.crudoperation.Room;
 
+import java.sql.Connection;
 import java.util.Scanner;
 
 public class AddRoom implements RoomOperation {
     @Override
-    public void operation() {
+    public void operation(Connection conn) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the name Id");
         String roomId = sc.nextLine();

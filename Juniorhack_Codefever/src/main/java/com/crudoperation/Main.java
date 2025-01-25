@@ -1,8 +1,9 @@
 package com.crudoperation;
 
+import com.crudoperation.Hotels.HostelServices;
 import com.crudoperation.Hotels.HotelManage;
 import com.crudoperation.StudentAllocation.StudentAllocationManage;
-import com.crudoperation.Students.StudentManage;
+//import com.crudoperation.Students.StudentManage;
 
 import java.util.Scanner;
 
@@ -21,9 +22,11 @@ public class Main {
         int action= scanner.nextInt();
         switch (action){
             case 1:
-                 HotelManage hotelManage= new HotelManage();
+                  HostelServices hostelServices= new HostelServices();
+                  hostelServices.hotelServiceDisplay();
+
             case 2:
-                StudentManage studentManage= new StudentManage();
+//                StudentManage studentManage= new StudentManage();
                 case 3:
                     StudentAllocationManage studentAllocationManage= new StudentAllocationManage();
                     case 4:
