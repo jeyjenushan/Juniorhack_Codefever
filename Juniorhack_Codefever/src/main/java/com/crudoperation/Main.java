@@ -1,5 +1,9 @@
 package com.crudoperation;
 
+import com.crudoperation.Hotels.HotelManage;
+import com.crudoperation.StudentAllocation.StudentAllocationManage;
+import com.crudoperation.Students.StudentManage;
+
 import java.util.Scanner;
 
 public class Main {
