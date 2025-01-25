@@ -2,7 +2,7 @@ package com.crudoperation;
 
 import com.crudoperation.Hotels.HotelManage;
 import com.crudoperation.StudentAllocation.StudentAllocationManage;
-import com.crudoperation.Students.StudentManage;
+import com.crudoperation.Students.StudentDetails;
 
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ public class Main {
             case 1:
                  HotelManage hotelManage= new HotelManage();
             case 2:
-                StudentManage studentManage= new StudentManage();
+                StudentDetails studentManage= new StudentDetails();
                 case 3:
                     StudentAllocationManage studentAllocationManage= new StudentAllocationManage();
                     case 4:
