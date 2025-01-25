@@ -9,6 +9,7 @@ public class HostelDetailsDisplay {
           Scanner sc = new Scanner(System.in);
           System.out.println("Enter Hostel ID: ");
           String hostelID = sc.nextLine();
+//          dr
       }
 
 }

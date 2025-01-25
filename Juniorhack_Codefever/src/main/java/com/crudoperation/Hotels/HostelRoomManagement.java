@@ -13,6 +13,7 @@ public class HostelRoomManagement {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your choice");
         int roomChoise = scanner.nextInt();
+//        jj
 
         switch (roomChoise) {
             case 1:

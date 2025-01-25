@@ -11,6 +11,7 @@ public class HotelManage {
         this.hotelName = hotelName;
         this.numberOfRooms = numberOfRooms;
     }
+//    hbj
 
     public String getHotelId() {
         return hotelId;

@@ -7,5 +7,6 @@ public class UpdateHostel {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Hostel ID");
         int id = sc.nextInt();
+//        hgbu
     }
 }

@@ -13,7 +13,7 @@ public class AddHostel implements HostelOperation {
         String hosteName = sc.nextLine();
         System.out.println("Enter the NumberOfRooms of the hostel");
         int numberOfRooms = sc.nextInt();
-
+//bj
 //        try{
 //
 //        }catch{
