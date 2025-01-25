@@ -3,8 +3,6 @@ package com.crudoperation;
 import com.crudoperation.Hotels.HostelServices;
 import com.crudoperation.Hotels.HotelManage;
 import com.crudoperation.StudentAllocation.StudentAllocationManage;
-import com.crudoperation.Students.StudentManagementServices;
-import com.crudoperation.Students.StudentOperation;
 //import com.crudoperation.Students.StudentManage;
 
 import java.util.Scanner;
@@ -28,11 +26,9 @@ public class Main {
                   hostelServices.hotelServiceDisplay();
 
             case 2:
-                StudentManagementServices studentManagementServices=new StudentManagementServices();
-                studentManagementServices.
-
+//                StudentManage studentManage= new StudentManage();
                 case 3:
-                    StudentOperation studentOperation=Stude
+                    StudentAllocationManage studentAllocationManage= new StudentAllocationManage();
                     case 4:
                         System.exit(0);
         }
