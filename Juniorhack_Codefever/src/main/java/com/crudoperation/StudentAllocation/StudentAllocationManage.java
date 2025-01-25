@@ -2,7 +2,7 @@ package com.crudoperation.StudentAllocation;
 
 import java.time.LocalDate;
 import java.util.Date;
-//axa
+
 public class StudentAllocationManage {
 
     private String StudentId;
