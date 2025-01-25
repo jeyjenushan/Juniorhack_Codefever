@@ -13,8 +13,9 @@ public  class HostelServices {
 
         System.out.println("Enter your choice");
         Scanner sc = new Scanner(System.in);
-//        jhjs
+
         int HostelServicechoice = sc.nextInt();
+
         switch (HostelServicechoice) {
             case 1:
                  AddHostel addHostel = new AddHostel();
